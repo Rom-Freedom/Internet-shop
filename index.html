@@ -20,16 +20,16 @@
                         <table class="goods table mt-3" id="table1">
                             <thead>
                                 <tr class="table-primary align-middle">
-                                    <th>№</th>
-                                    <th>Название</th>
-                                    <th>Цена, &#8381;</th>
-                                    <th>Количество</th>
-                                    <th></th>
-                                    <th></th>
+                                    <th data-type="number">№</th>
+                                    <th data-type="string">Название</th>
+                                    <th data-type="number">Цена, &#8381;</th>
+                                    <th data-type="number">Количество</th>
+                                    <th data-type="number"></th>
+                                    <th data-type="number"></th>
                                 </tr>
                             </thead>
                             <tbody class="list">
-                                
+
                             </tbody>
                         </table>
                     </div>
@@ -37,7 +37,29 @@
             </div>
 
             <div class="col-xs-12 col-xxl-7">
-                
+                <div class="price_box">
+                    <div class="menu">
+                        <div class="price_title">Итого: <span class="price_result">0 &#8381</span></div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="price table mt-3" id="table2">
+                            <thead>
+                                <tr class="table-primary align-middle">
+                                    <th data-type="number">№</th>
+                                    <th data-type="string">Название</th>
+                                    <th data-type="number">Цена/шт, &#8381;</th>
+                                    <th data-type="number">Количество</th>
+                                    <th>Скидка, %</th>
+                                    <th data-type="number">Цена, &#8381;</th>
+                                    <th data-type="number"></th>
+                                </tr>
+                            </thead>
+                            <tbody class="cart">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
